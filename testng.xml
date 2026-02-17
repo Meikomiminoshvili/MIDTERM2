@@ -1,0 +1,12 @@
+<suite name="MeikoMiminoshviliProject">
+    <test name="MyFirstTests" paraller="classes">
+        <classes>
+            <listeners>
+                <listener class-name="Steps.MyCustomListener"/>
+            </listeners>
+            <class name="FinalProject.databaseValidationTest"/>
+
+        </classes>
+    </test>
+
+</suite>
